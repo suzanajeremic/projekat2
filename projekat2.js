@@ -23,7 +23,7 @@ function dodajSacuvajTask() {
     iks.setAttribute("class", "ikonica");
     iks.setAttribute("onclick", "obrisiTask()");
     let slikaX = document.createElement("img");
-    slikaX.setAttribute("src", "x-ikona.png");
+    slikaX.setAttribute("src", "/x-ikona.png");
 
 
     iks.appendChild(slikaX);
