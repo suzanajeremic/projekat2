@@ -80,7 +80,7 @@ ul li{
     position: relative;
     padding: 12px 8px 12px 10px;
     list-style-type: none;
-    border: 1px solid 	#5492ee;
+    border: 1px solid #9c9c9c;
     font-size: 18px;
     transition: 0.2s;
     margin-right: 10px;
@@ -90,7 +90,7 @@ ul li{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background:	#a7bed3;
+    background:	#fbfdff;
   }
  
   .close {
