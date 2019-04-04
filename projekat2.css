@@ -76,32 +76,8 @@ ul li{
     background:	#fff7f0;
   }
 
-
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 700px) {
 ul li{
     width: 300px;
+}    
 }
-
-    
-}
-@media screen and (min-width: 800px) {
-    ul li{
-        width: 600px;
-    }
-    
-        
-    }
-    @media screen and (min-width: 1000px) {
-        ul li{
-            width: 800px;
-        }
-        
-            
-        }
-        @media screen and (min-width: 1200px) {
-            ul li{
-                width: 1000px;
-            }
-            
-                
-            }
