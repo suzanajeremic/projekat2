@@ -10,13 +10,13 @@ function dodajSacuvajTask() {
     let inputValue = document.getElementById("task").value;
     let li = document.createElement("li");
     let t = document.createTextNode(inputValue);
-
+    
 
 
     li.appendChild(t);
     ulLista = document.getElementById("lista");
     ulLista.appendChild(li);
-
+ 
 
 
     let iks = document.createElement("a");
@@ -28,6 +28,7 @@ function dodajSacuvajTask() {
 
     iks.appendChild(slikaX);
     li.appendChild(iks);
+    li.setAttribute("width", "20px");
     document.getElementById("lista").appendChild(li);
 
 
@@ -35,7 +36,6 @@ function dodajSacuvajTask() {
 
     let listaSave = document.getElementById("lista").innerHTML;
     localStorage.setItem("sacuvajTask", listaSave);
-
 
 }
 document.getElementById("task").focus();
@@ -74,6 +74,7 @@ function removeTasks() {
     x = document.getElementById("lista");
     x.parentNode.removeChild(x);
     localStorage.clear("sacuvaniTask");
+    location.reload();
 
 }
 
